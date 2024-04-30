@@ -1,0 +1,341 @@
+#root {
+    font-size: 16px;}
+
+    .homepage{
+        background-color: #F4ECE8;
+      }
+      .big-text{
+        font-size: 4rem;
+        font-family: "Merriweather", serif;
+        color: #433a32f7;
+        border-bottom: 1px solid #433a32f7;
+      }
+      .news-first{
+      background-color: #FFFFFF;
+      text-align: center;
+      }
+      .category{
+        font-family: 'Roboto';
+        font-size: 0.8rem;
+        font-weight: 400;
+        line-height: 0.9rem;
+        color: #F39200;
+      }
+      .topic{
+        font-family: "Merriweather", serif;
+        color: #433a32f7;
+        font-size: 2.2rem;
+        font-weight: 700;
+        line-height: 2.3rem;
+        padding: 0rem 2rem;
+      }
+      .author{
+        font-family: "Merriweather", serif;
+        font-size: 0.8rem;
+        font-weight: 400;
+        line-height: 1rem;
+        color: #433a32f7;
+      }
+      .author span{
+        color: #F39200;
+      }
+      .btn-news{
+      border-radius: 10px;
+      border: 2px solid black;
+      background-color: #FFFFFF;
+      width: 30rem;
+      margin: 0 auto;
+      }
+      .news-small{
+      background-color: #FFFFFF;
+      margin-bottom: 1px;
+      }
+      .topic-small{
+        font-family: "Merriweather", serif;
+        color: #433a32f7;
+        font-size: 0.8rem;
+        font-weight: 500;
+        line-height: 0.8rem;
+        margin-top: 1rem;
+        margin-bottom: 7rem;
+      }
+      .author-small{
+        margin-bottom: 1rem;
+        
+      }
+      .author-small span{
+        color: #F39200;
+      }
+      .btn-news-small{
+        border-radius: 10px;
+        border: 2px solid black;
+        background-color: #FFFFFF;
+        width: 8rem;
+        margin: 0 auto;
+      }
+      .tutorial{
+        background-color: #F4ECE8
+      }
+      .tutorial-el{
+        background-color: #FFFFFF;
+        width: 26rem;
+      }
+      .btn-tutorial{
+      width: 10rem;
+      margin: 0 auto;
+      border-radius: 10px;
+      border: 2px solid black;
+      background-color: #FFFFFF;
+      margin: 0 auto;
+      }
+      .topic-tutorial{
+        font-family: "Merriweather", serif;
+        color: #433a32f7;
+        font-size: 0.8rem;
+        font-weight: 500;
+        line-height: 0.8rem;
+      }
+      .sponsors{
+        background-color: #F4ECE8;
+      }
+      .div-sponsor{
+        width: 10rem;
+        background-color: #FFFFFF;
+        height: 10rem;
+      }
+      .cards-sponsor{
+        position: relative;
+        width: 1024;
+      }
+      .text-sponsor{
+        font-size: 2rem;
+        font-family: "Merriweather", serif;
+        color: #433a32f7;
+        border-bottom: 1px solid #433a32f7;
+      }
+      .courses{
+        background-color: #F4ECE8;
+      }
+      .courses-el{
+        background-color: #FFFFFF;
+        width: 50%;
+      }
+      .text-courses{
+        font-size: 1rem;
+        font-family: "Merriweather", serif;
+        color: #433a32f7;
+      }
+      .courses-first{
+      background-color: #059EB2;
+      }
+      .courses-second{
+      background-color: #F39200 ;
+      }
+      .div-courses{
+        background-color: #FFFFFF;
+        width: 5rem;
+        height: 5rem;
+      }
+      .courses-offers{
+        font-size: 1rem;
+        font-family: "Merriweather", serif;
+        color: #FFFFFF;
+      }
+      .btn-courses-f{
+        background-color: #059EB2;
+        border: 1px solid #FFFFFF;
+        border-radius: 10px;
+      }
+      .btn-courses-s{
+        background-color: #F39200;
+        border: 1px solid #FFFFFF;
+        border-radius: 10px;
+      }
+      .courses-input{
+        background-color: #FFFFFF;
+      }
+      .courses-input-in{
+        background-color: #F4ECE8;
+      }
+      .form-control{
+        width: 30rem;
+      }
+      .btn-registration{
+        background-color: #F4ECE8;
+        border-radius: 10px;
+        border: 1px solid #433a32f7;
+        margin: 0 auto;
+        width: 20rem;
+      }
+      .text-agreement{
+        font-family: "Merriweather", serif;
+        color: gray;
+        font-size: 0.8rem;
+        font-weight: 500;
+        line-height: 0.8rem;
+      }
+
+.news-top{
+        background-color: #F4ECE8;
+}
+.news-big-text{
+        font-size: 4rem;
+        font-family: "Merriweather", serif;
+        color: #433a32f7;
+}
+.news-small-text{
+        font-size: 2rem;
+        font-family: "Roboto";
+        color: #433a32f7;
+}
+.news-list{
+    background-color: #F4ECE8;
+}
+.news-list-text{
+    font-family: "Roboto";
+    font-size: 2rem;
+    color: black;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.2rem;
+}
+.tags a{
+  font-family: "Roboto";
+  color: #F39200;
+  text-decoration:none;
+}
+.avatar-news{
+  font-size: 1rem;
+  font-family: "Roboto";
+  font-weight: 400;
+  color: black;
+}
+.text-block{
+  width: 80%;
+}
+.big-text-news{
+  font-size: 0.9rem;
+  font-family: "Roboto";
+  font-weight: 400;
+  color: black; 
+  line-height: 1.5rem;
+  text-align: justify;
+}
+.news-el{
+  background-color: #F4ECE8;
+}
+.btn-blogger{
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: #FFFFFF;
+    width: 15rem;
+}
+.blogger-name{
+  font-family: "Merriweather", serif;
+  color: #433a32f7;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 2.3rem;
+}
+.social-blogger{
+  padding-top: 6rem;
+}
+
+/* TutorialCards*/
+
+.tutorial-cards{
+    width: 19rem;
+}
+.tutorial-cards h5{
+    font-family: 'Roboto';
+    color: black;
+}
+.tutorial-cards button{
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color: #FFFFFF;
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+/*Login*/
+.login-bg{
+  background-color: #F4ECE8;
+  padding: 10rem 30rem;
+}
+.login-form{
+padding: 2rem;
+background-color: #FFFFFF;
+}
+.registration-text{
+  font-size: 1.5rem;
+  font-family: "Roboto";
+  color: #433a32f7;
+}
+.btn-login{
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color: #FFFFFF;
+  width: 15rem;
+  margin: 0 auto;
+}
+
+
+.contacts-name{
+  font-size: 1.5rem;
+  font-family: "Merriweather", serif;
+  color: #433a32f7; 
+}
+
+
+
+
+
+
+
+
+
+.form {
+	width: 30rem;
+}
+
+.form__field {
+	margin-bottom: 10px;
+}
+
+.form__error {
+	color: red;
+	text-align: left;
+	font-size: 12px;
+	display: block;
+	margin-top: 3px;
+	display: none;
+}
+
+
+.form input {
+	outline: none;
+	display: block;
+	width: 100%;
+	border-radius: 2px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+input:valid:not(:placeholder-shown) {
+	border-color: green;
+}
+
+input:invalid:not(:placeholder-shown) {
+	border-color: red;
+}
+input:invalid:not(:placeholder-shown) + .form__error {
+	display: block;
+}
+
+
+
+
+

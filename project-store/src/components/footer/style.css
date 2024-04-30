@@ -1,0 +1,10 @@
+footer{
+    background-color: #F4ECE8;
+    font-family: 'Roboto'
+  }
+  .line{
+    height: 1px;
+    background-color: #433a32f7;
+    width: 100%;
+    margin-top: 2rem;
+  }
