@@ -24,7 +24,7 @@ function App(){
       return (
     <>
     <Router>
-      
+
     <ScrollToTop/>
        
     <Header></Header>
@@ -41,18 +41,6 @@ function App(){
       <Route path="/sponsors" element={<Sponsors/>}/>
       <Route path="/contacts" element={<Contacts/>}/></Routes>
 
-
-      
-      {/*<Home></Home>*/}
-      {/*<News></News>*/}
-      {/*<Article></Article>*/}
-      {/*<BloggerProfile></BloggerProfile>*/}
-      {/*<Tutorial></Tutorial>*/}
-      {/*<Bloggers></Bloggers>*/}
-      {/*<Login></Login>*/}
-      {/*<TutorialPage></TutorialPage>*/}
-      {/*<Sponsors></Sponsors>*/}
-      {/*<Contacts></Contacts>*/}
       <Footer></Footer>
       </Router>
     </>
