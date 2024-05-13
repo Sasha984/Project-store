@@ -6,6 +6,24 @@ import { NavLink } from 'react-router-dom';
 
 
 
+
+
+
+
+// Import Swiper React components
+//import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+//import 'swiper/swiper.min.css';
+//import 'swiper/css/pagination';
+
+// import required modules
+//import { Pagination } from 'swiper/modules';
+
+
+
+
+
 function Home() {
 
   let shortText = 'Lorem ipsum';
@@ -31,9 +49,15 @@ function Home() {
 
     return (
       
-      
-        <>
+
+
+
+      <>
+
+
         <section className='homepage p-5'>
+
+
             <div className='pb-5'><p className='big-text'>News</p></div>
 
            <div className='d-flex flex-row gap-3'>
@@ -47,7 +71,7 @@ function Home() {
             <div className='news-small d-flex justify-content-center text-center pb-3'><img className='p-2' src="/images/imghears.png" alt="second-news" width='100%'/>
             <div className='d-flex flex-column'>
         <p className='category pt-2'>{shortText}</p>
-            <p className='topic-small'>{longText}</p>
+            <p className='topic-small p-2'>{longText}</p>
             <p className='author-small mt-5'>Di&nbsp;<span>{shortText}</span></p>
             <NavLink to="/article"><button className='btn-news-small'>Scopri di piu</button></NavLink>
             </div>
@@ -55,7 +79,7 @@ function Home() {
             <div className='news-small d-flex justify-content-center text-center pb-3'><img className='p-2' src="/images/imgbutterflyes.png" alt="third-news" width='100%'/>
             <div className='d-flex flex-column'>
         <p className='category pt-2'>{shortText}</p>
-            <p className='topic-small'>{longText}</p>
+            <p className='topic-small p-2'>{longText}</p>
             <p className='author-small mt-5'>Di&nbsp;<span>{shortText}</span></p>
             <NavLink to="/article"><button className='btn-news-small'>Scopri di piu</button></NavLink>
             </div>
@@ -67,76 +91,46 @@ function Home() {
 
             <section className='tutorial p-5'>
             <p className='big-text'>Tutorial</p>
-            <div className='sections pt-5 d-flex flex-row justify-content-between'>
+            <div className='sections pt-5 d-flex flex-row justify-content-between gap-3'>
 
 
-<div className='tutorial-el .bg-light d-flex justify-content-center flex-column'>
+<div className='tutorial-el .bg-light d-flex justify-content-center flex-column p-2'>
 <img className='p-2' src="/images/tutorial1.png" alt="photo" width='100%'/>
 <div className='d-flex flex-row justify-content-between p-2'>
     <p className='category'>{shortText}</p>
     <p className='author'>Di <span>Angelica Forchi</span></p>
     </div>
     <p className='topic-tutorial p-2 text-center'>{longText}</p>
-    <NavLink to="/tutorialpage"><button className='btn-tutorial text-center my-2'>Guarda</button></NavLink>
+    <NavLink to="/tutorialpage"><button className='btn-tutorial text-center'>Guarda</button></NavLink>
 </div>
 
 
-<div className='tutorial-el .bg-light d-flex justify-content-center flex-column'>
+<div className='tutorial-el .bg-light d-flex justify-content-center flex-column p-2'>
 <img className='p-2' src="/images/news.png" alt="photo" width='100%' height={250}/>
 <div className='d-flex flex-row justify-content-between p-2'>
     <p className='category'>{shortText}</p>
     <p className='author'>Di <span>Angelica Forchi</span></p>
     </div>
     <p className='topic-tutorial p-2 text-center'>{longText}</p>
-    <NavLink to="/tutorialpage"><button className='btn-tutorial text-center my-2 text-decoration-none'>Guarda</button></NavLink>
+    <NavLink to="/tutorialpage"><button className='btn-tutorial text-center text-decoration-none'>Guarda</button></NavLink>
 </div>
 
 
-<div className='tutorial-el .bg-light d-flex justify-content-center flex-column'>
+<div className='tutorial-el .bg-light d-flex justify-content-center flex-column p-2'>
 <img className='p-2' src="/images/tutorial2.png" alt="photo" width='100%'/>
 <div className='d-flex flex-row justify-content-between p-2'>
     <p className='category'>{shortText}</p>
     <p className='author'>Di <span>Angelica Forchi</span></p>
     </div>
     <p className='topic-tutorial p-2 text-center'>{longText}</p>
-    <NavLink to="/tutorialpage"><button className='btn-tutorial text-center my-2'>Guarda</button></NavLink>
+    <NavLink to="/tutorialpage"><button className='btn-tutorial text-center'>Guarda</button></NavLink>
 </div>
       </div>
-
-      <div id="myCarousel" className="carousel slide mb-6" data-bs-ride="carousel">
-    <div className="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" ></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" className="active" aria-current="true"></button>
-    </div>
-    <div className="carousel-inner">
-      <div className="carousel-item">
-        <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-        <div className="container">
-          <div className="carousel-caption text-start">
-            
-
-<div>
-
-          <div className='tutorial-el .bg-light d-flex justify-content-center flex-column'>
-<img className='p-2' src="/images/tutorial2.png" alt="photo" width='100%'/>
-<div className='d-flex flex-row justify-content-between p-2'>
-    <p className='category'>{shortText}</p>
-    <p className='author'>Di <span>Angelica Forchi</span></p>
-    </div>
-    <p className='topic-tutorial p-2 text-center'>{longText}</p>
-    <button className='btn-tutorial text-center my-2'>Guarda</button>
-</div>
-      </div>
-      </div>  
-        </div>
-        </div>
-      </div>
-  </div>
+        
             </section>
             
             <section className='p-5 .b-light'>
-                <div className='sponsors p-4'>
+      <div className='sponsors p-4'>
                    <p className='text-sponsor p-4'>Sponsor</p>
                    <div className='cards-sponsors d-flex flex-row justify-content-between mt-4 gap-5'>
                     <div className='div-sponsor d-flex align-items-center justify-content-center'>Sponsors</div>

@@ -9,11 +9,11 @@ function Header() {
         
        <header>
         <div className='header d-flex flex-row justify-content-between align-items-center'>
-        <NavLink to="/"><img className='logo' src="/images/logo.png" alt="logo" /></NavLink>
+        <NavLink to="/"><img src="/images/logo.png" alt="logo" /></NavLink>
        
          
    
-           <ul className="nav d-flex justify-content-center">
+           <ul className="nav d-flex justify-content-center flex-wrap">
              <li><NavLink to="/" className="nav-link px-2 link-body-emphasis">Home</NavLink></li>
              <li><NavLink to="/news" className="nav-link px-2 link-body-emphasis">News</NavLink></li>
              <li><NavLink to="/tutorial" className="nav-link px-2 link-body-emphasis">Tutorials</NavLink></li>

@@ -5,11 +5,9 @@
     padding: 3rem;
     box-shadow: 2px 3px 4px rgba(0,0,0,.2); 
   }
-  .logo{
-    width: 13rem;
-    height: 4rem;
-  }
   .nav{
     gap: 2rem;
     font-family: 'Roboto';
   }
+
+  

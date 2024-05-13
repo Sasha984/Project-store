@@ -78,7 +78,7 @@
       }
       .tutorial-el{
         background-color: #FFFFFF;
-        width: 26rem;
+        
       }
       .btn-tutorial{
       width: 10rem;
@@ -87,6 +87,7 @@
       border: 2px solid black;
       background-color: #FFFFFF;
       margin: 0 auto;
+      display: block;
       }
       .topic-tutorial{
         font-family: "Merriweather", serif;
@@ -335,7 +336,7 @@ input:invalid:not(:placeholder-shown) + .form__error {
 	display: block;
 }
 
-
-
-
+.form-control{
+  width: 100%;
+}
 
