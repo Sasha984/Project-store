@@ -1,27 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-
-
-
-
-
-
-
-
-
-// Import Swiper React components
-//import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-//import 'swiper/swiper.min.css';
-//import 'swiper/css/pagination';
-
-// import required modules
-//import { Pagination } from 'swiper/modules';
-
-
-
+import { Swiper} from 'swiper/react';
+import 'swiper/swiper.min.css';
 
 
 function Home() {
@@ -44,20 +25,18 @@ function Home() {
   console.log(valueEmail);
 
 
-
+ 
+  
+  
 
 
     return (
       
-
-
+      
 
       <>
 
-
-        <section className='homepage p-5'>
-
-
+<section className='homepage p-5'>
             <div className='pb-5'><p className='big-text'>News</p></div>
 
            <div className='d-flex flex-row gap-3'>
@@ -94,7 +73,9 @@ function Home() {
             <div className='sections pt-5 d-flex flex-row justify-content-between gap-3'>
 
 
-<div className='tutorial-el .bg-light d-flex justify-content-center flex-column p-2'>
+            <div className="swiper-tutorial pt-5">
+  <div className="swiper-wrapper">
+  <div className='swiper-slide tutorial-el .bg-light d-flex justify-content-center flex-column p-2'>
 <img className='p-2' src="/images/tutorial1.png" alt="photo" width='100%'/>
 <div className='d-flex flex-row justify-content-between p-2'>
     <p className='category'>{shortText}</p>
@@ -103,9 +84,7 @@ function Home() {
     <p className='topic-tutorial p-2 text-center'>{longText}</p>
     <NavLink to="/tutorialpage"><button className='btn-tutorial text-center'>Guarda</button></NavLink>
 </div>
-
-
-<div className='tutorial-el .bg-light d-flex justify-content-center flex-column p-2'>
+<div className='swiper-slide tutorial-el .bg-light d-flex justify-content-center flex-column p-2'>
 <img className='p-2' src="/images/news.png" alt="photo" width='100%' height={250}/>
 <div className='d-flex flex-row justify-content-between p-2'>
     <p className='category'>{shortText}</p>
@@ -114,9 +93,7 @@ function Home() {
     <p className='topic-tutorial p-2 text-center'>{longText}</p>
     <NavLink to="/tutorialpage"><button className='btn-tutorial text-center text-decoration-none'>Guarda</button></NavLink>
 </div>
-
-
-<div className='tutorial-el .bg-light d-flex justify-content-center flex-column p-2'>
+<div className='swiper-slide tutorial-el .bg-light d-flex justify-content-center flex-column p-2'>
 <img className='p-2' src="/images/tutorial2.png" alt="photo" width='100%'/>
 <div className='d-flex flex-row justify-content-between p-2'>
     <p className='category'>{shortText}</p>
@@ -125,21 +102,45 @@ function Home() {
     <p className='topic-tutorial p-2 text-center'>{longText}</p>
     <NavLink to="/tutorialpage"><button className='btn-tutorial text-center'>Guarda</button></NavLink>
 </div>
+  <div className='swiper-slide'>Sponsors</div>
+  <div className='swiper-slide'>Sponsors</div>
+  <div className='swiper-slide'>Sponsors</div>
+  <div className='swiper-slide'>Sponsors</div>
+  <div className='swiper-slide'>Sponsors</div>
+  <div className='swiper-slide'>Sponsors</div>
+  <div className='swiper-slide'>Sponsors</div>
+  <div className='swiper-slide'>Sponsors</div>
+  <div className='swiper-slide'>Sponsors</div>
+  </div>
+  <div className="swiper-button-prev-tutorial"></div>
+  <div className="swiper-button-next-tutorial"></div>
+</div>
+
       </div>
-        
+    
             </section>
             
             <section className='p-5 .b-light'>
       <div className='sponsors p-4'>
                    <p className='text-sponsor p-4'>Sponsor</p>
-                   <div className='cards-sponsors d-flex flex-row justify-content-between mt-4 gap-5'>
-                    <div className='div-sponsor d-flex align-items-center justify-content-center'>Sponsors</div>
-                    <div className='div-sponsor d-flex align-items-center justify-content-center'>Sponsors</div>
-                    <div className='div-sponsor d-flex align-items-center justify-content-center'>Sponsors</div>
-                    <div className='div-sponsor d-flex align-items-center justify-content-center'>Sponsors</div>
-                    <div className='div-sponsor d-flex align-items-center justify-content-center'>Sponsors</div>
-                    <div className='div-sponsor d-flex align-items-center justify-content-center'>Sponsors</div>
-                   </div>
+                   <div className="swiper pt-5">
+  <div className="swiper-wrapper">
+  <div className='swiper-slide div-sponsors'>Sponsors</div>
+  <div className='swiper-slide div-sponsors'>Sponsors</div>
+  <div className='swiper-slide div-sponsors'>Sponsors</div>
+  <div className='swiper-slide div-sponsors'>Sponsors</div>
+  <div className='swiper-slide div-sponsors'>Sponsors</div>
+  <div className='swiper-slide div-sponsors'>Sponsors</div>
+  <div className='swiper-slide div-sponsors'>Sponsors</div>
+  <div className='swiper-slide div-sponsors'>Sponsors</div>
+  <div className='swiper-slide div-sponsors'>Sponsors</div>
+  <div className='swiper-slide div-sponsors'>Sponsors</div>
+  <div className='swiper-slide div-sponsors'>Sponsors</div>
+  <div className='swiper-slide div-sponsors'>Sponsors</div>
+  </div>
+  <div className="swiper-button-prev"></div>
+  <div className="swiper-button-next"></div>
+</div>
                 </div>
              </section>
 

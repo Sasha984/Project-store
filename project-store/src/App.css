@@ -99,10 +99,17 @@
       .sponsors{
         background-color: #F4ECE8;
       }
-      .div-sponsor{
-        width: 10rem;
+      .div-sponsors{
         background-color: #FFFFFF;
         height: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .swiper-button-prev,
+      .swiper-button-next{
+        color: black;
+        top: 60%;
       }
       .cards-sponsor{
         position: relative;
@@ -339,4 +346,5 @@ input:invalid:not(:placeholder-shown) + .form__error {
 .form-control{
   width: 100%;
 }
+
 
