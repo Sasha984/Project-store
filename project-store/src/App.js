@@ -32,6 +32,14 @@ window.onload = function(){
       slidesPerView: '6',
       spaceBetween: 50,
     },
+    2000: {
+      slidesPerView: '8',
+      spaceBetween: 50,
+    },
+    2500: {
+      slidesPerView: '10',
+      spaceBetween: 50,
+    },
   }
   });
 
@@ -42,20 +50,24 @@ window.onload = function(){
     loop: true,
 
     navigation: {
-    nextEl: '.swiper-button-next-tutorial',
-    prevEl: '.swiper-button-prev-tutorial',
+    nextEl: '.tutorial-btn-next',
+    prevEl: '.tutorial-btn-prev',
    },
    breakpoints: {
     640: {
-      slidesPerView: '3',
+      slidesPerView: '1',
       spaceBetween: 20,
     },
     768: {
-      slidesPerView: '5',
+      slidesPerView: '2',
       spaceBetween: 40,
     },
     1024: {
-      slidesPerView: '6',
+      slidesPerView: '3',
+      spaceBetween: 50,
+    },
+    2000: {
+      slidesPerView: '4',
       spaceBetween: 50,
     },
   }

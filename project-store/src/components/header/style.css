@@ -5,9 +5,77 @@
     padding: 3rem;
     box-shadow: 2px 3px 4px rgba(0,0,0,.2); 
   }
-  .nav{
-    gap: 2rem;
+  nav{
+    padding: 1px 5px;   
+    text-align: center;
     font-family: 'Roboto';
-  }
+    
+}
+nav > ul {
+   padding: 0;
+}
+nav li{
+    display: inline-block;
+    vertical-align: top;
+	padding: 2px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+nav a{
+    color: black;
+    padding: 1px 5px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: 0.9s;
+    
+}
+nav a:hover{
+    border: 1px solid black;
+}
 
-  
+input[type="checkbox"] {
+    display: none;
+}
+nav label {    
+    display: none;
+    border: 1px solid #fff;   
+    padding: 1px 5px;
+    cursor: pointer;
+    transition: 0.9s;
+}
+nav label:hover{
+    color: black;
+    border: 1px solid black;
+}
+
+
+@media screen and (max-width: 1200px) {
+    
+  #btn-menu{
+
+  }
+	nav {
+
+	text-align: left;
+	}
+    nav label{
+         display: inline-block;
+         font-size: 1.5rem;
+    }
+    nav > ul {
+      margin-top: 5rem;
+        display: none;
+        
+		/*width: 100px;*/
+		left: 0;
+    }
+	nav li{
+    display: block;
+	padding: 2px;
+  border: 1px solid grey;
+}
+    input[type="checkbox"]:checked ~ label + ul {
+        display: block;
+    }
+    
+}

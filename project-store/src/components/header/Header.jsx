@@ -10,10 +10,20 @@ function Header() {
        <header>
         <div className='header d-flex flex-row justify-content-between align-items-center'>
         <NavLink to="/"><img src="/images/logo.png" alt="logo" /></NavLink>
-       
-         
-   
-           <ul className="nav d-flex justify-content-center flex-wrap">
+      {/*  <nav>      
+    <input type="checkbox" name="menu" id="btn-menu" />
+    <label for="btn-menu">Меню</label> 
+    <ul>
+        <li><a href="#">Пункт 1 </a></li>
+        <li><a href="#">Пункт 2</a></li>
+        <li><a href="#">Пункт 3</a></li>
+        <li><a href="#">Пункт 4</a></li>
+    </ul>
+    </nav>*/}
+         <nav>
+        <input type="checkbox" name="menu" id="btn-menu" />
+    <label htmlFor="btn-menu">Menu</label> 
+           <ul className=" ">
              <li><NavLink to="/" className="nav-link px-2 link-body-emphasis">Home</NavLink></li>
              <li><NavLink to="/news" className="nav-link px-2 link-body-emphasis">News</NavLink></li>
              <li><NavLink to="/tutorial" className="nav-link px-2 link-body-emphasis">Tutorials</NavLink></li>
@@ -21,7 +31,7 @@ function Header() {
              <li><NavLink to="/contacts" className="nav-link px-2 link-body-emphasis">Contacts</NavLink></li>
              <li><NavLink to="/bloggerProfile" className="nav-link px-2 link-body-emphasis">My profile</NavLink></li>
            </ul>
-   
+    </nav>
            <div className="d-flex flex-row align-items-center">
            <form className="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
              <input type="search" className="form-control" placeholder="Search..." aria-label="Search"/>
@@ -31,10 +41,10 @@ function Header() {
              </a>
              <ul className="dropdown-menu text-small">
                <li><NavLink to="/login" className="dropdown-item">Sign out</NavLink></li>
-             </ul>
+  </ul>
            
          </div>
-         </div>
+        </div>
      </header>
     )
 }

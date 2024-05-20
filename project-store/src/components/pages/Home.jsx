@@ -39,41 +39,30 @@ function Home() {
 <section className='homepage p-5'>
             <div className='pb-5'><p className='big-text'>News</p></div>
 
-           <div className='d-flex flex-row gap-3'>
-            <div className='news-first d-flex flex-column text-center pb-2'><img className='p-2' src="/images/news.png" alt="first-news" width='100%' />
+           
+            <div className='news-first d-flex flex-column text-center pb-2 mb-5'><img className='p-2' src="/images/news.png" alt="first-news" width='100%' />
         <p className='category mt-3'>{shortText}</p>
             <p className='topic mt-4'>{longText}</p>
             <p className='author mt-5'>Di&nbsp;<span>Angela Rossi</span></p>
             <NavLink to="/article"><button className='btn-news mt-4'>Scopri di piu</button></NavLink>
             </div>
-            <div className='d-flex flex-column'>
-            <div className='news-small d-flex justify-content-center text-center pb-3'><img className='p-2' src="/images/imghears.png" alt="second-news" width='100%'/>
-            <div className='d-flex flex-column'>
-        <p className='category pt-2'>{shortText}</p>
-            <p className='topic-small p-2'>{longText}</p>
-            <p className='author-small mt-5'>Di&nbsp;<span>{shortText}</span></p>
-            <NavLink to="/article"><button className='btn-news-small'>Scopri di piu</button></NavLink>
+            <div className='news-first d-flex flex-column text-center pb-2 mb-5'><img className='p-2' src="/images/news.png" alt="first-news" width='100%' />
+        <p className='category mt-3'>{shortText}</p>
+            <p className='topic mt-4'>{longText}</p>
+            <p className='author mt-5'>Di&nbsp;<span>Angela Rossi</span></p>
+            <NavLink to="/article"><button className='btn-news mt-4'>Scopri di piu</button></NavLink>
             </div>
-            </div>
-            <div className='news-small d-flex justify-content-center text-center pb-3'><img className='p-2' src="/images/imgbutterflyes.png" alt="third-news" width='100%'/>
-            <div className='d-flex flex-column'>
-        <p className='category pt-2'>{shortText}</p>
-            <p className='topic-small p-2'>{longText}</p>
-            <p className='author-small mt-5'>Di&nbsp;<span>{shortText}</span></p>
-            <NavLink to="/article"><button className='btn-news-small'>Scopri di piu</button></NavLink>
-            </div>
-            </div>
-            </div>
+            <div className='news-first d-flex flex-column text-center pb-2 mb-5'><img className='p-2' src="/images/news.png" alt="first-news" width='100%' />
+        <p className='category mt-3'>{shortText}</p>
+            <p className='topic mt-4'>{longText}</p>
+            <p className='author mt-5'>Di&nbsp;<span>Angela Rossi</span></p>
+            <NavLink to="/article"><button className='btn-news mt-4'>Scopri di piu</button></NavLink>
             </div>
             </section>
-
-
             <section className='tutorial p-5'>
             <p className='big-text'>Tutorial</p>
             <div className='sections pt-5 d-flex flex-row justify-content-between gap-3'>
-
-
-            <div className="swiper-tutorial pt-5">
+            <div className="swiper swiper-tutorial pt-5">
   <div className="swiper-wrapper">
   <div className='swiper-slide tutorial-el .bg-light d-flex justify-content-center flex-column p-2'>
 <img className='p-2' src="/images/tutorial1.png" alt="photo" width='100%'/>
@@ -102,20 +91,91 @@ function Home() {
     <p className='topic-tutorial p-2 text-center'>{longText}</p>
     <NavLink to="/tutorialpage"><button className='btn-tutorial text-center'>Guarda</button></NavLink>
 </div>
-  <div className='swiper-slide'>Sponsors</div>
-  <div className='swiper-slide'>Sponsors</div>
-  <div className='swiper-slide'>Sponsors</div>
-  <div className='swiper-slide'>Sponsors</div>
-  <div className='swiper-slide'>Sponsors</div>
-  <div className='swiper-slide'>Sponsors</div>
-  <div className='swiper-slide'>Sponsors</div>
-  <div className='swiper-slide'>Sponsors</div>
-  <div className='swiper-slide'>Sponsors</div>
-  </div>
-  <div className="swiper-button-prev-tutorial"></div>
-  <div className="swiper-button-next-tutorial"></div>
+<div className='swiper-slide tutorial-el .bg-light d-flex justify-content-center flex-column p-2'>
+<img className='p-2' src="/images/tutorial1.png" alt="photo" width='100%'/>
+<div className='d-flex flex-row justify-content-between p-2'>
+    <p className='category'>{shortText}</p>
+    <p className='author'>Di <span>Angelica Forchi</span></p>
+    </div>
+    <p className='topic-tutorial p-2 text-center'>{longText}</p>
+    <NavLink to="/tutorialpage"><button className='btn-tutorial text-center'>Guarda</button></NavLink>
 </div>
-
+<div className='swiper-slide tutorial-el .bg-light d-flex justify-content-center flex-column p-2'>
+<img className='p-2' src="/images/news.png" alt="photo" width='100%' height={250}/>
+<div className='d-flex flex-row justify-content-between p-2'>
+    <p className='category'>{shortText}</p>
+    <p className='author'>Di <span>Angelica Forchi</span></p>
+    </div>
+    <p className='topic-tutorial p-2 text-center'>{longText}</p>
+    <NavLink to="/tutorialpage"><button className='btn-tutorial text-center text-decoration-none'>Guarda</button></NavLink>
+</div>
+<div className='swiper-slide tutorial-el .bg-light d-flex justify-content-center flex-column p-2'>
+<img className='p-2' src="/images/tutorial2.png" alt="photo" width='100%'/>
+<div className='d-flex flex-row justify-content-between p-2'>
+    <p className='category'>{shortText}</p>
+    <p className='author'>Di <span>Angelica Forchi</span></p>
+    </div>
+    <p className='topic-tutorial p-2 text-center'>{longText}</p>
+    <NavLink to="/tutorialpage"><button className='btn-tutorial text-center'>Guarda</button></NavLink>
+</div>
+  <div className='swiper-slide tutorial-el .bg-light d-flex justify-content-center flex-column p-2'>
+<img className='p-2' src="/images/tutorial1.png" alt="photo" width='100%'/>
+<div className='d-flex flex-row justify-content-between p-2'>
+    <p className='category'>{shortText}</p>
+    <p className='author'>Di <span>Angelica Forchi</span></p>
+    </div>
+    <p className='topic-tutorial p-2 text-center'>{longText}</p>
+    <NavLink to="/tutorialpage"><button className='btn-tutorial text-center'>Guarda</button></NavLink>
+</div>
+<div className='swiper-slide tutorial-el .bg-light d-flex justify-content-center flex-column p-2'>
+<img className='p-2' src="/images/news.png" alt="photo" width='100%' height={250}/>
+<div className='d-flex flex-row justify-content-between p-2'>
+    <p className='category'>{shortText}</p>
+    <p className='author'>Di <span>Angelica Forchi</span></p>
+    </div>
+    <p className='topic-tutorial p-2 text-center'>{longText}</p>
+    <NavLink to="/tutorialpage"><button className='btn-tutorial text-center text-decoration-none'>Guarda</button></NavLink>
+</div>
+<div className='swiper-slide tutorial-el .bg-light d-flex justify-content-center flex-column p-2'>
+<img className='p-2' src="/images/tutorial2.png" alt="photo" width='100%'/>
+<div className='d-flex flex-row justify-content-between p-2'>
+    <p className='category'>{shortText}</p>
+    <p className='author'>Di <span>Angelica Forchi</span></p>
+    </div>
+    <p className='topic-tutorial p-2 text-center'>{longText}</p>
+    <NavLink to="/tutorialpage"><button className='btn-tutorial text-center'>Guarda</button></NavLink>
+</div>
+  <div className='swiper-slide tutorial-el .bg-light d-flex justify-content-center flex-column p-2'>
+<img className='p-2' src="/images/tutorial1.png" alt="photo" width='100%'/>
+<div className='d-flex flex-row justify-content-between p-2'>
+    <p className='category'>{shortText}</p>
+    <p className='author'>Di <span>Angelica Forchi</span></p>
+    </div>
+    <p className='topic-tutorial p-2 text-center'>{longText}</p>
+    <NavLink to="/tutorialpage"><button className='btn-tutorial text-center'>Guarda</button></NavLink>
+</div>
+<div className='swiper-slide tutorial-el .bg-light d-flex justify-content-center flex-column p-2'>
+<img className='p-2' src="/images/news.png" alt="photo" width='100%' height={250}/>
+<div className='d-flex flex-row justify-content-between p-2'>
+    <p className='category'>{shortText}</p>
+    <p className='author'>Di <span>Angelica Forchi</span></p>
+    </div>
+    <p className='topic-tutorial p-2 text-center'>{longText}</p>
+    <NavLink to="/tutorialpage"><button className='btn-tutorial text-center text-decoration-none'>Guarda</button></NavLink>
+</div>
+<div className='swiper-slide tutorial-el .bg-light d-flex justify-content-center flex-column p-2'>
+<img className='p-2' src="/images/tutorial2.png" alt="photo" width='100%'/>
+<div className='d-flex flex-row justify-content-between p-2'>
+    <p className='category'>{shortText}</p>
+    <p className='author'>Di <span>Angelica Forchi</span></p>
+    </div>
+    <p className='topic-tutorial p-2 text-center'>{longText}</p>
+    <NavLink to="/tutorialpage"><button className='btn-tutorial text-center'>Guarda</button></NavLink>
+</div>
+  </div>
+  <div className="swiper-button-prev tutorial-btn-prev"></div>
+  <div className="swiper-button-next tutorial-btn-next"></div>
+</div>
       </div>
     
             </section>
@@ -138,8 +198,8 @@ function Home() {
   <div className='swiper-slide div-sponsors'>Sponsors</div>
   <div className='swiper-slide div-sponsors'>Sponsors</div>
   </div>
-  <div className="swiper-button-prev"></div>
-  <div className="swiper-button-next"></div>
+  <div className="swiper-button-prev btn-sponsors"></div>
+  <div className="swiper-button-next btn-sponsors"></div>
 </div>
                 </div>
              </section>
@@ -168,7 +228,7 @@ function Home() {
 </div>
             </section>
             <section className='courses-input p-5'>
-                <div className='courses-input-in d-flex flex-row p-5'>
+                <div className='courses-input-in p-5'>
              <div>
                 <p className='topic mb-4 mt-3'>{shortText}!</p>
                 <p className='text-courses mt-5 p-4'>{longText} {longText} {longText} {longText}</p>
