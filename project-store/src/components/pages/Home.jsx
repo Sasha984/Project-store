@@ -204,13 +204,13 @@ function Home() {
                 </div>
              </section>
 
-            <section className='courses p-5 d-flex flex-row'>
+            <section className='courses p-5 d-flex'>
 <div className='courses-el p-4 d-flex flex-column'>
         <p className='topic mb-5'>{shortText}</p>
         <p className='text-courses'>{longText}{longText}</p>
         <p className='text-courses mt-4'>{longText}</p>
         </div>
-    <div className='w-50'> 
+    <div className='courses-wrapper'> 
         <div className='courses-first d-flex flex-row p-4 gap-3'>
         <div className='div-courses d-flex mt-2 justify-content-center'></div>
             <div className='d-flex flex-column'>

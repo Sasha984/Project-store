@@ -24,13 +24,13 @@ function News() {
  <p className='author mt-5'>Di&nbsp;<span>Angela Rossi</span></p>
  <NavLink to='/article'><button className='btn-news mt-4'>Scopri di piu</button></NavLink>
  </div>
- <div className='d-flex flex-column'>
+ <div className='d-flex flex-column gap-4'>
  <div className='news-small d-flex justify-content-center text-center pb-3'><img className='p-2' src="/images/imghears.png" alt="second-news" width='100%'/>
  <div className='d-flex flex-column'>
 <p className='category pt-2'>{shortText}</p>
  <p className='topic-small'>{longText}</p>
  <p className='author-small mt-5'>Di&nbsp;<span>{shortText}</span></p>
- <NavLink to='/article'><button className='btn-news-small'>Scopri di piu</button></NavLink>
+ <NavLink to='/article'><button className='btn-news mt-5'>Scopri di piu</button></NavLink>
  </div>
  </div>
  <div className='news-small d-flex justify-content-center text-center pb-3'><img className='p-2' src="/images/imgbutterflyes.png" alt="third-news" width='100%'/>
@@ -38,7 +38,7 @@ function News() {
 <p className='category pt-2'>{shortText}</p>
  <p className='topic-small'>{longText}</p>
  <p className='author-small mt-5'>Di&nbsp;<span>{shortText}</span></p>
- <NavLink to='/article'><button className='btn-news-small'>Scopri di piu</button></NavLink>
+ <NavLink to='/article'><button className='btn-news mt-5'>Scopri di piu</button></NavLink>
  </div>
  </div>
  </div>

@@ -9,17 +9,7 @@ function Header() {
         
        <header>
         <div className='header d-flex flex-row justify-content-between align-items-center'>
-        <NavLink to="/"><img src="/images/logo.png" alt="logo" /></NavLink>
-      {/*  <nav>      
-    <input type="checkbox" name="menu" id="btn-menu" />
-    <label for="btn-menu">Меню</label> 
-    <ul>
-        <li><a href="#">Пункт 1 </a></li>
-        <li><a href="#">Пункт 2</a></li>
-        <li><a href="#">Пункт 3</a></li>
-        <li><a href="#">Пункт 4</a></li>
-    </ul>
-    </nav>*/}
+        <NavLink to="/"><img className='logo' src="/images/logo.png" alt="logo" /></NavLink>
          <nav>
         <input type="checkbox" name="menu" id="btn-menu" />
     <label htmlFor="btn-menu">Menu</label> 
@@ -33,7 +23,7 @@ function Header() {
            </ul>
     </nav>
            <div className="d-flex flex-row align-items-center">
-           <form className="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+           <form className="search col-lg-auto mb-lg-0 me-lg-3" role="search">
              <input type="search" className="form-control" placeholder="Search..." aria-label="Search"/>
            </form>
              <a href="#" className="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
